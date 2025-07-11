@@ -10,7 +10,58 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body {
+  padding: 38%;
+  padding-top: 10%;
+}
+span {
+  display: inline-flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 2em;
+}
 
+.calc-bg {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
+  border-radius: 30px;
+}
+
+.calc {
+  width: 100%;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 4em;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.calc-display {
+  /* align-content: space-around; */
+
+}
+
+.calc-buttons {
+  align-content: space-around;
+}
+
+.btn-row {
+  
+}
 
 
 /******************************************
