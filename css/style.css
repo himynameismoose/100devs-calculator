@@ -11,8 +11,10 @@
 /* LAYOUT
 /*******************************************/
 body {
-  padding: 38%;
+  padding: 30%;
   padding-top: 10%;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 span {
   display: inline-flex;
@@ -32,6 +34,7 @@ span {
   justify-content: space-around;
   padding: 10%;
   border-radius: 30px;
+  
 }
 
 .calc {
@@ -45,22 +48,19 @@ span {
 }
 
 input {
-  height: 4em;
+  height: 2em;
   width: 100%;
   margin-bottom: 40px;
+  text-align: right;
 }
 
-.calc-display {
-  /* align-content: space-around; */
-
+input[type="text"] {
+  font-size: 40px;
 }
+
 
 .calc-buttons {
   align-content: space-around;
-}
-
-.btn-row {
-  
 }
 
 
